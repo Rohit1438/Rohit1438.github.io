@@ -1,0 +1,61 @@
+
+.About{
+    background-color: rgb(232, 232, 232);
+    color: black;
+    font-weight: 600;
+
+}
+.About>h1{
+   padding-top: 20px;
+   font-size: 40px;
+}
+.About_Page{
+width: 84%;
+padding: 10px 10px;
+border: 2px dashed rgb(152, 152, 152);
+margin: auto;
+justify-content: center;
+line-height: 25px;
+display: grid;
+grid-template-columns: 55% 35%;
+text-align:justify;
+padding: 50px;
+}
+.about_summary>p{
+color: rgb(81, 81, 81);
+font-weight: 600;
+}
+
+.about_summary{
+font-size: 18px;
+padding-right:55px;
+margin: auto;
+
+}
+
+.Qualifications{
+
+background: #5D2669;
+background: linear-gradient(135deg, #5D2669, #193240);
+    color: aliceblue;
+    padding: 10px 30px;
+}
+.Qualifications>h2{
+   padding-bottom: 10px;
+   font-size: 33px;
+    border-bottom: 1px solid grey;
+}
+.Qualifications>p{
+  
+ font-weight: 200;
+    
+ }
+@media (max-width: 800px) {
+    .About_Page{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+}

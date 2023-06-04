@@ -1,0 +1,54 @@
+.Education_Page {
+  width: 85%;
+  margin: auto;
+  background-color: rgb(232, 232, 232);
+}
+.Education_cards_component{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+.edu_card {
+  text-align: left;
+padding: 25px 25px;
+  background: #030736;
+
+}
+.edu_card_p{
+display: flex;
+
+}
+.card_1{
+    background: linear-gradient(135deg, #310336, #c79522);
+    color: white;
+}
+.card_2{
+    background: linear-gradient(135deg, #310336, #22a6c7);
+    color: white;   
+}
+.card_3{
+    background: linear-gradient(135deg, #310336, #c722ae);
+    color: white;   
+}
+.card_4{
+    background: linear-gradient(135deg, #a221b0, #5922c7);
+    color: white;   
+}
+
+@media (max-width: 1200px) {
+
+    .Education_cards_component{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+    }
+
+}
+@media (max-width: 800px) {
+    .Education_cards_component {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      gap: 20px;
+    }
+  
+}

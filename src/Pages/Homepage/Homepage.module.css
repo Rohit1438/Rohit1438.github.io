@@ -1,0 +1,116 @@
+.Homepage {
+
+  background: #55367d;
+  background: linear-gradient(135deg, #55367d, #0f2f4f);
+
+
+/* background-image: url('https://t3.ftcdn.net/jpg/05/80/19/80/360_F_580198004_IFNeDE7Rsbrl8ErnD5rsDZvFUj8muyas.jpg'); */
+
+
+
+/* background-image: url('https://wallpapercave.com/wp/wp10239028.jpg');
+
+background-size: cover;
+background-position: center; */
+
+
+  /* background-image: url('https://wallpapercrafter.com/desktop1/540701-Geometric-Gradient-Black-Yellow-Shapes-Dark-background.jpg') */
+}
+
+
+/* font-family: 'Aboreto', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Mulish', sans-serif;
+font-family: 'Seaweed Script', cursive;
+font-family: 'Ysabeau', sans-serif; */
+
+
+
+.Navbar {
+  color: white;
+  height: 10vh;
+  width: 80%;
+  margin: auto;
+  border-bottom: 1px solid white;
+  display: flex;
+  padding: 0px 50px;
+  padding-bottom: 10px;
+  justify-content: space-between;
+  align-items: center;
+  /* position: sticky;
+  top: 0 ;  */
+}
+.Navbar_links {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  margin: 10px;
+}
+
+.profile_banner {
+ 
+    color: white;
+    display: flex;
+    width: 70%;
+    line-height: 25px;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    padding:50px 50px;
+
+  }
+  
+  .profile_banner_image {
+    width: 30%;
+    border: 2px dashed white;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding: 25px;
+  }
+  
+  .profile_banner_image > img {
+    width: 100%;
+    border: 1px solid white;
+    border-radius: 100%;
+  }
+  
+
+
+  .profile_banner_text{
+
+    width: 40%;
+    font-family: 'Mulish', sans-serif;
+text-align: left;
+font-weight:400;
+}
+.profile_banner_text>h1{
+    font-size: 50px;
+line-height: 50px;
+font-family: 'Ysabeau', sans-serif; 
+}
+
+
+
+
+
+  @media (max-width: 800px) {
+.profile_banner{
+    display: flex;
+    flex-direction: column;
+    
+}
+.profile_banner_text{
+  text-align: center;
+  width: 100%
+}
+.profile_banner_text>h1{
+font-size: 35px;
+  line-height: 3px;
+}
+.profile_banner_text>h2{
+  font-size: 20px;
+    line-height: 10px;
+  }
+  }

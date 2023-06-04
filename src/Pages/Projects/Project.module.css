@@ -1,0 +1,166 @@
+.Project_Page{
+margin-top: 80px;
+/*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=220436&c2=804f82&gt=l&gd=dtt
+*/
+/*
+* Created with https://www.css-gradient.com
+* Gradient link: https://www.css-gradient.com/?c1=04565c&c2=565f92&gt=l&gd=dtt
+*/
+background: #04565C;
+background: linear-gradient(180deg, #04565C, #565F92);
+color: white;
+}
+
+
+.Project_Page>h1{
+
+padding: 40px 20px 20px;
+    }
+.Project_cards{
+    width: 80%;
+    margin: auto;
+ /* border: 2px solid rgb(255, 0, 0); */
+display: grid;
+align-items:initial;
+grid-template-columns: 30% 30% 30%;
+gap: 50px;
+justify-content: space-evenly;
+}
+.Project_card{
+ 
+
+    border: 1px solid white;
+    padding: 20px 20px;
+    transition: transform 0.3s ease;
+
+
+
+
+  
+
+
+}
+.Project_card> img{
+
+    width: 100%;
+    margin: auto;
+ 
+}
+
+.Project_card:hover{
+
+    transform: scale(1.07);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    
+}
+
+
+.Project_card_text>h2{
+    font-weight: 100;
+
+}
+.Project_card_text>h2>span{
+    font-size: small;
+    font-weight: 600;
+
+}
+.Project_card_text>button{
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: rgb(104, 167, 68);
+    color: white;
+}
+.Project_card_text>button:hover{
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+  color: rgb(34, 63, 17);
+  border: 2px solid  rgb(95, 147, 64);
+}
+.Project_card_text_hidden {
+    opacity: 1;
+    height: auto;
+    overflow: hidden;
+    transition: opacity 0.3s ease-out, height 0.3s ease-out;
+    opacity: 0;
+    height: 0;
+  }
+  .Project_card_text_hidden2 {
+    opacity: 1;
+    height: auto;
+    overflow: hidden;
+    transition: opacity 0.3s ease-out, height 0.3s ease-out;
+    opacity: 0;
+    height: 0;
+  }
+  li{
+    text-align: justify; 
+   
+       margin:15px
+;
+  }
+
+
+.AreasofResponsibility{
+    border: 1px solid rgb(255, 255, 255);
+
+    background-color: #565F92;
+ 
+ 
+}
+
+.techStacks{
+  background-color: WHITE;
+  border: 1px solid white;
+    padding: 30px 30px;
+display: grid;
+grid-template-columns: repeat(4,1fr);
+gap: 10px;
+align-items:center ;
+}
+.techStacks>img{
+   height: 70px;
+
+}
+ul{
+    /* padding:  5px  25px; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.Time{
+    display: flex;
+    justify-content: space-around;
+}
+  .Project_card_text_visible {
+    opacity: 1;
+    height: auto;
+    transition: opacity 0.5s ease-in, height 0.7s ease-in;
+
+    justify-content: space-around;
+  }
+  .Project_card_text_visible2{
+    opacity: 1;
+    height: auto;
+    transition: opacity 0.5s ease-in, height 0.7s ease-in;
+
+    justify-content: space-around;
+  }
+@media (max-width: 1400px) {
+
+    .Project_cards{
+        grid-template-columns: repeat(2,1fr);
+    }
+
+}
+@media (max-width: 1000px) {
+
+  .Project_cards{
+      grid-template-columns: repeat(1,1fr);
+    
+  }
+
+}
